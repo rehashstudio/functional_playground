@@ -1,0 +1,25 @@
+{
+  "name": "functional_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf build/*",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rehash studio",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/immutable": "^3.8.7",
+    "@types/ramda": "^0.0.3",
+    "rimraf": "^2.5.4",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.1.6"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "ramda": "^0.23.0"
+  }
+}
