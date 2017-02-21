@@ -17,4 +17,6 @@
   - see *src/typescript_examples/checking_class_member_types.ts* 
 5. Why do I see `can't re-declare block scoped variable` in my file? 
   - likely because that variable name is being used in the global space by another file. If you import or export anything in your file, it will create a module scope which should fix the issue
-  - [see this for more info](https://basarat.gitbooks.io/typescript/content/docs/project/modules.html) 
+  - [see this for more info](https://basarat.gitbooks.io/typescript/content/docs/project/modules.html)
+6. How and why do I implement function overloading?
+  - see *src/typescript_examples/function_overload.ts* 
